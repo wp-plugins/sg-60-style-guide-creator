@@ -6,7 +6,7 @@ include( 'googleFonts.php' );
 class styleGuideShortcodes {
 	
 	function __construct() {
-		add_shortcode( 'sg60', array( $this, 'sgShortcode' ) );
+		add_shortcode( 'sg-60', array( $this, 'sgShortcode' ) );
 	}
 	
 	function sgShortcode( $atts ) {

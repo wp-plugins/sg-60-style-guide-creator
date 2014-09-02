@@ -41,7 +41,7 @@ class styleGuideMeta {
 		add_meta_box( 'styleguidecolors', __( 'Colors', 'myplugin_textdomain' ), array( $this, 'styleGuideColors' ), 'style-guides', 'normal', 'low' );
 		add_meta_box( 'styleguidefonts', __( 'Fonts', 'myplugin_textdomain' ), array( $this, 'styleGuideFonts' ), 'style-guides', 'normal', 'high' );
 		add_meta_box( 'styleguideinfluences', __( 'Influences', 'myplugin_textdomain' ), array( $this, 'styleGuideInfluences' ), 'style-guides', 'normal', 'low' );
-		add_meta_box( 'styleguidemeta', __( 'Meta Data', 'myplugin_textdomain' ), array( $this, 'styleGuideMeta' ), 'style-guides', 'normal', 'low' );
+		//add_meta_box( 'styleguidemeta', __( 'Meta Data', 'myplugin_textdomain' ), array( $this, 'styleGuideMeta' ), 'style-guides', 'normal', 'low' );
 	}
 
 	function styleGuideColors( $post ) {

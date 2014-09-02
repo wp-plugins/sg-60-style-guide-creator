@@ -26,7 +26,7 @@ class styleAdmin {
 				if( $loop->have_posts() ) : while( $loop->have_posts() ) : $loop->the_post();
 					echo '<tr>';
 						echo '<td>'.get_the_title().'</td>';
-						echo '<td><code>[sg60 id="'.get_the_ID().'"]</code></td>';
+						echo '<td><code>[sg-60 id="'.get_the_ID().'"]</code></td>';
 						echo '<td><a href="'.admin_url('post.php?post='.get_the_ID().'&action=edit').'">Edit</a></td>';
 					echo '</tr>';
 				endwhile;
