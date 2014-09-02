@@ -1,4 +1,4 @@
-=== WebRTC Video streaming for WP ===
+﻿=== SG-60 Style Guide Creator ===
 Contributors: arc-ctrl, guavaworks
 Donate link: http://www.codingofficehours.com/coh/#/teacher/23
 Tags: style guide, styleguide, style guides, mockups
