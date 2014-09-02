@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: SG-60 - Style Guide Creator
- * Plugin URI: http://www.arcctrl.com/
+ * Plugin URI: http://arcctrl.com/plugins/sg-60
  * Description: This plugin will allow you to easily create style guide for your clients
  * Version: 1.0
  * Author: ARC(CTRL)
