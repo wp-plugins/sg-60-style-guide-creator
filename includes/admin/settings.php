@@ -6,7 +6,7 @@ class styleAdmin {
 	}
 
 	function styleGuideMenus() {
-		add_menu_page( 'SG-60', 'SG-60', 'delete_pages', 'style-guide-main', array( $this, 'styleGuideMain' ), 'dashicons-welcome-write-blog', 80 );
+		add_menu_page( 'SG-60', 'SG-60', 'delete_pages', 'style-guide-main', array( $this, 'styleGuideMain' ), 'dashicons-welcome-write-blog', 90 );
 		add_submenu_page( 'style-guide-main', 'Add Style Guide', 'Add Style Guide', 'delete_pages', 'post-new.php?post_type=style-guides' );
 		add_submenu_page( 'style-guide-main', 'Style Guide Trash', 'Get Shortcodes', 'delete_pages', 'admin.php?page=style-guide-main' );
 	}
