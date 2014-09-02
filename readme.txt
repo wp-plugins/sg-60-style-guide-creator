@@ -8,7 +8,7 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The SG-60 style Guide Creator for WordPress was developed specifically with the designer in mind. Once you have courted a new client and you have discussed their needs it is an important step to communicate your proposed creative solution clearly and professionally.
+The SG-60 style Guide Creator for WordPress was developed specifically with the designer in mind. Create a beautiful Style Guide in no time!
 
 == Description ==
   
