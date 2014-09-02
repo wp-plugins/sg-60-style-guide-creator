@@ -23,6 +23,7 @@ The SG-60 makes communicating your ideas fast, easy and displayed within your vi
 1. Log into your WordPress dashobard and add the new plugin via upload
 1. Activate the plugin
 1. Use the easy to use instructions
+1. use shortcode `[sg-60 id="xx"]` to display the style guide
 
 
 == Frequently Asked Questions ==
@@ -33,6 +34,13 @@ This is a great plugin for getting your client style guides together
 = When will SG-90 be released? =
 SG-90 is due to be released by January 2015, as a premium upgrade for SG-60
 
+
+== Screenshots ==
+1. Logo Section
+2. Color Section
+3. Font Section
+4. Influence / Inspiration Section
+5. Modal
 
 == Changelog ==
 
