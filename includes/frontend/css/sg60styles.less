@@ -1,0 +1,61 @@
+@import '../../bootstrap/bootstrap.less';
+
+@grayBG: #f3f3f3;
+.sg60Container .text-center { text-align: center; }
+.sg60Container .openModal { cursor: pointer; }
+.sg60Container .img-responsive { display: block; margin: 10px auto; }
+
+.sg60_mainLogo, .sg60_otherLogos, .sg60_colors, .sg60_fonts, .sg60_influences { margin-bottom: 20px; margin-top: 20px; }
+
+.sg60_mainLogo { margin-bottom: 0; }
+.sg60_otherLogos { margin-bottom: 0; margin-top: 0; }
+
+
+.sg60_colors {
+	.sg60_color {
+		border: 1px solid #e5e5e5;
+		border-radius: 5px;
+		margin: 0 0 20px;
+		padding: 0 0 10px 0;
+		span {
+			display: block;
+			height: 50px;
+			margin: 5px 0 10px 0;
+		}
+		
+		strong {
+			display: block;
+			font-size: 1em;
+			margin-top: 5px;
+			padding: 0 10px;
+		}
+		p { margin: 0; padding: 0 10px; }
+		
+		.colorDefs {
+			strong { display: inline-block; margin: 0 5px 0 0; padding: 0; }
+		}
+	}
+}
+.sg60_otherLogos, .sg60_fonts, .sg60_mainLogo { padding-bottom: 20px; padding-top: 20px; }
+
+.fontWrapper {
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	margin: 0 0 20px 0;
+	.title {
+		background: #fafafa;
+		border-bottom: 1px solid #e5e5e5;
+		display: block;
+		font-size: 1em;
+		padding: 10px 0 10px 10px;
+
+	}
+	h1, h2, h3, p { margin: 20px 10px 40px 10px; }
+
+}
+
+#sg60Modal .modal-body button.close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
