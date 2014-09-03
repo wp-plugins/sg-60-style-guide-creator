@@ -36,11 +36,8 @@ SG-90 is due to be released by January 2015, as a premium upgrade for SG-60
 
 
 == Screenshots ==
-1. Logo Section
-2. Color Section
-3. Font Section
-4. Influence / Inspiration Section
-5. Modal
+1. Live Version
+2. WordPress Dashboard
 
 == Changelog ==
 
