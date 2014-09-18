@@ -1,6 +1,6 @@
 <?php
 
-include( PLUGINPATH.'includes/frontend/ajax.php' );
+include( SG60_PLUGINPATH.'includes/frontend/ajax.php' );
 include( 'googleFonts.php' );
 
 class styleGuideShortcodes {
@@ -22,9 +22,9 @@ class styleGuideShortcodes {
 		if( $sg && $sg->post_type == 'style-guides' ) :
 
 			// enqueue
-			wp_enqueue_style( 'sg60Styles', PLUGINURL.'/includes/frontend/css/sg60styles.css', null, '0.1', 'all' );
-			wp_enqueue_script( 'sg60FEscript', PLUGINURL.'/includes/frontend/js/sg60_fedScripts.js', array('jquery'), '1.0', false );
-			wp_enqueue_script( 'BSModal', PLUGINURL.'/includes/bootstrap/modal.js', array('jquery'), '1.0', false );
+			wp_enqueue_style( 'sg60Styles', SG60_PLUGINURL.'/includes/frontend/css/sg60styles.css', null, '0.1', 'all' );
+			wp_enqueue_script( 'sg60FEscript', SG60_PLUGINURL.'/includes/frontend/js/sg60_fedScripts.js', array('jquery'), '1.0', false );
+			wp_enqueue_script( 'BSModal', SG60_PLUGINURL.'/includes/bootstrap/modal.js', array('jquery'), '1.0', false );
 			
 
 			$postFonts = get_post_meta( $sg->ID, '_fonts', true );
@@ -46,7 +46,7 @@ class styleGuideShortcodes {
 				echo '</style>';
 			}
 
-			include(PLUGINPATH.'includes/frontend/sg60Template.php');
+			include(SG60_PLUGINPATH.'includes/frontend/sg60Template.php');
 			
 			return $template;
 			

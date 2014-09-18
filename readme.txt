@@ -4,7 +4,7 @@ Donate link: http://www.codingofficehours.com/coh/#/teacher/23
 Tags: style guide, styleguide, style guides, mockups
 Requires at least: 3.9
 Tested up to: 4.0
-Stable tag: 0.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,3 +43,6 @@ SG-90 is due to be released by January 2015, as a premium upgrade for SG-60
 
 = 0.1 =
 * Initial Build
+
+= 1.1 =
+* Re-Define global variables
