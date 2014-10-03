@@ -14,7 +14,7 @@ class styleAdmin {
 	function styleGuideMain() {
 		$args = array( 'post_type' => 'style-guides' );
 		$loop = new WP_Query( $args );
-		echo '<img src="'.PLUGINURL.'/includes/admin/img/sg60-logo.png" class="sg60Logo" />';
+		echo '<img src="'.SG60_PLUGINURL.'/includes/admin/img/sg60-logo.png" class="sg60Logo" />';
 		echo '<h2>SG-60 Style Guides</h2>';
 		echo '<table class="widefat">';
 			echo '<thead>';

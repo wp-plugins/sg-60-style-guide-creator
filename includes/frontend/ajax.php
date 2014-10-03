@@ -11,7 +11,7 @@ class sg60Ajax {
 	function sg60Scripts() {
 		wp_enqueue_script( 
 			'sg60_scripts', 
-			PLUGINURL.'/includes/frontend/js/sg60_fedScripts.js', 
+			SG60_PLUGINURL.'/includes/frontend/js/sg60_fedScripts.js', 
 			array('jquery'), 
 			null, 
 			false 
