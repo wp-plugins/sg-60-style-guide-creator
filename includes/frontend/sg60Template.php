@@ -47,38 +47,28 @@
 		$i = 1;
 			foreach( $colors as $color ){
 				$template .= '';
-				$template .='<div class="col-md-3"><div class="sg60_color">';
+				$template .='<div class="col-md-4"><div class="sg60_color">';
 					$template .= '<span style="background:'.$color['colorHex'].'"></span>';
-					if( isset( $color['colorTitle'] ) )
-						$template .= '<strong class="text-center">'.$color['colorTitle'].'</strong>';
-					$template .= '<p class="text-center">'.$color['colorHex'].'</p>';
-					$template .= '<div class="row colorDefs"><div class="col-xs-6">';
-						$template .= '<p><strong>C</strong>';
-							if( isset( $color['colorCMYK']['c'] ) ) $template .= $color['colorCMYK']['c'];
-						$template .= '</p>';
-						$template .= '<p><strong>M</strong>';
-							if( isset( $color['colorCMYK']['m'] ) ) $template .= $color['colorCMYK']['m'];
-						$template .= '</p>';
-						$template .= '<p><strong>Y</strong>';
-							if( isset( $color['colorCMYK']['y'] ) ) $template .= $color['colorCMYK']['y'];
-						$template .= '</p>';
-						$template .= '<p><strong>K</strong>';
+					if( isset( $color['colorTitle'] ) )						
+					$template .= '<div class="row colorDefs"><div class="col-xs-12">';
+						$template .= '<p><strong>'.$color['colorTitle'].'</strong></p>';
+						$template .= '<p>HEX: '.$color['colorHex'].'</p>';
+						$template .= '<p>CMYK: ';
+							if( isset( $color['colorCMYK']['c'] ) ) $template .= $color['colorCMYK']['c'].' / ';
+							if( isset( $color['colorCMYK']['m'] ) ) $template .= $color['colorCMYK']['m'].' / ';
+							if( isset( $color['colorCMYK']['y'] ) ) $template .= $color['colorCMYK']['y'].' / ';
 							if( isset( $color['colorCMYK']['k'] ) ) $template .= $color['colorCMYK']['k'];
 						$template .= '</p>';
-					$template .= '</div><div class="col-xs-6">';
-						$template .= '<p><strong>R</strong>';
-							if( isset( $color['colorRGB']['r'] ) ) $template .= $color['colorRGB']['r'];
-						$template .= '</p>';
-						$template .= '<p><strong>G</strong>';
-							if( isset( $color['colorRGB']['g'] ) ) $template .= $color['colorRGB']['g'];
-						$template .= '</p>';
-						$template .= '<p><strong>B</strong>';
+							
+						$template .= '<p>RGB: ';
+							if( isset( $color['colorRGB']['r'] ) ) $template .= $color['colorRGB']['r'].' / ';
+							if( isset( $color['colorRGB']['g'] ) ) $template .= $color['colorRGB']['g'].' / ';
 							if( isset( $color['colorRGB']['b'] ) ) $template .= $color['colorRGB']['b'];
 						$template .= '</p>';
 					$template .= '</div></div>';
 						
 				$template .= '</div></div>';
-				if( $i%4 == 0 ) { $template .= '</div><div class="row sg60_colors">'; }
+				if( $i%3 == 0 ) { $template .= '</div><div class="row sg60_colors">'; }
 				$i++;
 			}
 		$template .= '</div>';

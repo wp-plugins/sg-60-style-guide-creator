@@ -3,8 +3,8 @@ Contributors: arc-ctrl, guavaworks
 Donate link: http://www.codingofficehours.com/coh/#/teacher/23
 Tags: style guide, styleguide, style guides, mockups
 Requires at least: 3.9
-Tested up to: 4.0
-Stable tag: 1.2
+Tested up to: 4.1
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,3 +51,9 @@ SG-90 is due to be released by January 2015, as a premium upgrade for SG-60
 
 = 1.2 =
 * Bug fixes and global variable updates
+
+= 1.5 =
+* Styling updates to Font section
+* Styling updates to Colors section
+* Readme.txt update
+* Settings page update

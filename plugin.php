@@ -3,7 +3,7 @@
  * Plugin Name: SG-60 - Style Guide Creator
  * Plugin URI: http://arcctrl.com/plugins/sg-60
  * Description: This plugin will allow you to easily create style guide for your clients
- * Version: 1.2.1
+ * Version: 1.5
  * Author: ARC(CTRL)
  * Author URI: http://www.arcctrl.com
  * License: GPL2
