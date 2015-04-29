@@ -3,7 +3,7 @@ Contributors: arc-ctrl, guavaworks
 Donate link: http://www.codingofficehours.com/coh/#/teacher/23
 Tags: style guide, styleguide, style guides, mockups
 Requires at least: 3.9
-Tested up to: 4.1
+Tested up to: 4.2.1
 Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
