@@ -22,7 +22,7 @@ If SG-60 is not powerful enough for your needs, check out our fully flexible pro
 == Installation ==
 
 1. Download zipped archive of plugin
-1. Log into your WordPress dashobard and add the new plugin via upload
+1. Log into your WordPress dashboard and add the new plugin via upload
 1. Activate the plugin
 1. Use the easy to use instructions
 1. use shortcode `[sg-60 id="xx"]` to display the style guide
@@ -57,3 +57,6 @@ SG-90 is due to be released by January 2015, as a premium upgrade for SG-60
 * Styling updates to Colors section
 * Readme.txt update
 * Settings page update
+
+= 1.5.1 =
+Fixing [jQuery bug](https://wordpress.org/support/topic/js-errors-not-allowing-usage)
