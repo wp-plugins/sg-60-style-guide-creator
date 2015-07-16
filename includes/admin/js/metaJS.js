@@ -30,7 +30,7 @@ function colorTemp() {
 	return clrtmp;
 }
 
-$(document).ready(function(){
+$(document).ready(function($){
 
 	var colorCount = 1,
 	influenceCount = 1,
